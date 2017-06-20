@@ -12,6 +12,9 @@ namespace Phalcon\Annotations\Adapter;
  *
  * $annotations = new Apc();
  * </code>
+ *
+ * @see \Phalcon\Annotations\Adapter\Apcu
+ * @deprecated
  */
 class Apc extends \Phalcon\Annotations\Adapter
 {

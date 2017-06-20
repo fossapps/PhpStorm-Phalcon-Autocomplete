@@ -165,7 +165,7 @@ class Manager
     public function set($id, \Phalcon\Assets\Collection $collection) {}
 
     /**
-     * Returns a collection by its id
+     * Returns a collection by its id.
      *
      * <code>
      * $scripts = $assets->get("js");
@@ -257,7 +257,14 @@ class Manager
     public function getCollections() {}
 
     /**
-     * Returns true or false if collection exists
+     * Returns true or false if collection exists.
+     *
+     * <code>
+     * if ($assets->exists("jsHeader")) {
+     *     // \Phalcon\Assets\Collection
+     *     $collection = $assets->get("jsHeader");
+     * }
+     * </code>
      *
      * @param string $id
      * @return bool

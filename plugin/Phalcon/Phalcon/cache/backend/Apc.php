@@ -31,6 +31,9 @@ namespace Phalcon\Cache\Backend;
  * // Get data
  * $data = $cache->get("my-data");
  * </code>
+ *
+ * @see \Phalcon\Cache\Backend\Apcu
+ * @deprecated
  */
 class Apc extends \Phalcon\Cache\Backend
 {
