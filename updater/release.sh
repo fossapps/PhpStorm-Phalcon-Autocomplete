@@ -50,6 +50,6 @@ git add plugin
 git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git
 git commit -m "feat(ide_stubs): updated plugins to $release"
 git tag $release
-git push origin/master
+git push deploy/master
 git push --tags
 # create a tag
