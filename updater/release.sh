@@ -7,8 +7,10 @@ cd /tmp/releases/
 unzip -o /tmp/releases/release.zip
 cd $(ls -d */|head -n 1)/src/
 rm -Rf ${curDir}/../plugin/Phalcon/Phalcon
+ls
 mv Phalcon ${curDir}/../plugin/Phalcon/
 cd ${curDir}/../plugin/
+ls
 version_number=${release/v/}
 # update the xml file META-INF/plugin.xml
 template=`cat << EOF
@@ -46,6 +48,7 @@ zip -r phpstorm-library-plugin.jar *
 
 
 cd ${curDir}/../
+pwd
 git add plugin
 git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git
 echo "git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git"
