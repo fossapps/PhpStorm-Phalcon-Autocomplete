@@ -49,6 +49,7 @@ zip -r phpstorm-library-plugin.jar *
 
 cd ${curDir}/../
 pwd
+git status
 git add plugin
 git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git
 echo "git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git"
