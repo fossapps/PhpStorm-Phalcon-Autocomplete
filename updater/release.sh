@@ -53,6 +53,7 @@ git add plugin
 git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git
 echo "git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git"
 git commit -m "feat(ide_stubs): updated plugins to $release"
+git log
 git tag $release
 git remote show deploy
 git push deploy master
