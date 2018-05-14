@@ -48,8 +48,10 @@ zip -r phpstorm-library-plugin.jar *
 cd ${curDir}/../
 git add plugin
 git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git
+echo "git remote add deploy https://cyberhck:$GH_TOKEN@github.com/fossapps/PhpStorm-Phalcon-Autocomplete.git"
 git commit -m "feat(ide_stubs): updated plugins to $release"
 git tag $release
-git push deploy
+git remote show deploy
+git push deploy master
 git push --tags
 # create a tag
