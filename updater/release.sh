@@ -1,6 +1,7 @@
 npm run build
 release=`node ./dist/index.js`
 curDir=`pwd`
+git checkout master
 mkdir -p /tmp/releases
 wget https://github.com/phalcon/ide-stubs/archive/$release.zip -O /tmp/releases/release.zip
 cd /tmp/releases/

@@ -3,7 +3,6 @@ const plugin = "fossapps/PhpStorm-Phalcon-Autocomplete";
 const stubs = "phalcon/ide-stubs";
 const url = "https://api.github.com/repos";
 interface IReleaseInfo {
-    id: string;
     url: string;
     tag_name: string;
 }
@@ -12,7 +11,6 @@ const getLatestReleaseId = (baseUrl: string, repo: string): Promise<IReleaseInfo
     const url = `${baseUrl}/${repo}/releases`;
     return fetch(url).then((res: any) => res.json()).then((res: IReleaseInfo[]) => {
         return {
-            id: res[0].id,
             url: res[0].url,
             tag_name: res[0].tag_name
         }
