@@ -27,9 +27,9 @@ Promise.all([pluginData, stubsData]).then((results: IReleaseInfo[]) => {
 }).catch((e: any) => {console.error(e)});
 
 const performRelease = (plugin: IReleaseInfo, stubs: IReleaseInfo): void => {
-    if (plugin.tag_name === stubs.tag_name) {
-        return;
-    }
+    // if (plugin.tag_name === stubs.tag_name) {
+    //     console.log(stubs.tag_name);
+    // }
     console.log(stubs.tag_name);
     // console.log(`Clone IDE stubs inside /tmp/`);
     // console.log(`Move IDE stubs into plugins`);
