@@ -53,5 +53,5 @@ git commit -m "feat(ide_stubs): updated plugins to $release"
 git tag $release
 git remote show deploy
 git push deploy master
-git push --tags
+git push deploy --tags
 # create a tag
