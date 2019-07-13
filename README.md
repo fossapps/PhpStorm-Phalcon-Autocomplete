@@ -1,6 +1,6 @@
 # phpstorm-library-plugin
 
-[![Build Status](https://travis-ci.org/artspb/phpstorm-library-plugin.svg?branch=master)](https://travis-ci.org/artspb/phpstorm-library-plugin)
+[![Build Status](https://travis-ci.org/artspb/phpstorm-library-plugin.svg?branch=master)](https://travis-ci.org/artspb/phpstorm-library-plugin) [![Greenkeeper badge](https://badges.greenkeeper.io/fossapps/PhpStorm-Phalcon-Autocomplete.svg)](https://greenkeeper.io/)
 
 The repository is intended to demonstrate how to use a new "libraryRoot" API of PhpStorm. It consists of two parts:
 
