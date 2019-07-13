@@ -13,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "@types/mocha": "^5.2.0",
-    "@types/node": "^10.0.8",
+    "@types/node": "^12.6.2",
     "node-fetch": "^2.1.2",
-    "typescript": "^2.8.3"
+    "typescript": "^3.5.3"
   }
 }
