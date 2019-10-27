@@ -1,7 +1,7 @@
 <idea-plugin version="2">
   <id>cyberhck.github.idea.plugin.phalcon</id>
   <name>Phalcon auto-complete</name>
-  <version>4.0.0-rc.1</version>
+  <version>4.0.0-rc.2</version>
   <vendor email="gautam.nishchal@gmail.com" url="https://github.com/cyberhck">Nishchal Gautam</vendor>
 
   <description><![CDATA[
@@ -9,9 +9,9 @@
   ]]></description>
 
   <change-notes><![CDATA[
-    <h3>v4.0.0-rc.1</h3>
+    <h3>v4.0.0-rc.2</h3>
     <ul>
-      <li>updated to phalcon v4.0.0-rc.1</li>
+      <li>updated to phalcon v4.0.0-rc.2</li>
     </ul>
   ]]>
   </change-notes>
