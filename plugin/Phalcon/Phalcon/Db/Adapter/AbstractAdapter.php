@@ -15,7 +15,7 @@ use Phalcon\Db\RawValue;
 use Phalcon\Events\ManagerInterface;
 
 /**
- * Base class for Phalcon\Db adapters
+ * Base class for Phalcon\Db\Adapter adapters
  */
 abstract class AbstractAdapter implements \Phalcon\Db\Adapter\AdapterInterface, \Phalcon\Events\EventsAwareInterface
 {
@@ -51,7 +51,7 @@ abstract class AbstractAdapter implements \Phalcon\Db\Adapter\AdapterInterface, 
     /**
      * Event Manager
      *
-     * @var Phalcon\Events\Manager
+     * @var ManagerInterface
      */
     protected $eventsManager;
 

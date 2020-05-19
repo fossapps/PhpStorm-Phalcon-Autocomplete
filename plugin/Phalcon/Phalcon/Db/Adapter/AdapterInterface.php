@@ -504,7 +504,7 @@ interface AdapterInterface
      * @param string $sqlStatement
      * @param mixed $placeholders
      * @param mixed $dataTypes
-     * @return mixed
+     * @return bool|\Phalcon\Db\ResultInterface
      */
     public function query(string $sqlStatement, $placeholders = null, $dataTypes = null);
 
